@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuanLyDoiBong_65131212" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/neon_green</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <item name="colorPrimaryContainer">@color/pitch_green</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <style name="Theme.QuanLyDoiBong_65131212" parent="Base.Theme.QuanLyDoiBong_65131212" />
+
+    <style name="CircleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="NeonCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_dark</item>
+        <item name="cardCornerRadius">22dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="strokeColor">@color/neon_green_glow</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quản Lý Đội Bóng</string>
+    <string name="welcome_back">Chào mừng trở lại</string>
+    <string name="login_to_continue">Đăng nhập để tiếp tục</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="no_account">Chưa có tài khoản? </string>
+    <string name="register_now">Đăng ký ngay</string>
+    <string name="create_account">Tạo tài khoản mới</string>
+    <string name="fill_info_register">Điền thông tin để đăng ký</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="terms_agree">Tôi đồng ý với điều khoản sử dụng</string>
+    <string name="register">ĐĂNG KÝ</string>
+    <string name="already_have_account">Đã có tài khoản? </string>
+    <string name="login_now">Đăng nhập ngay</string>
+    <string name="search_team_hint">Tìm kiếm đội bóng...</string>
+    <string name="search_player_hint">Tìm kiếm cầu thủ...</string>
+    <string name="no_player_message">Chưa có cầu thủ nào</string>
+    <string name="team_list_title">ĐỘI BÓNG</string>
+    <string name="team_detail_title">CHI TIẾT ĐỘI BÓNG</string>
+    <string name="stats">THỐNG KÊ</string>
+    <string name="info">THÔNG TIN</string>
+    <string name="players">CẦU THỦ</string>
+    <string name="player_detail_title">CHI TIẾT CẦU THỦ</string>
+    <string name="ovr">OVR</string>
+    <string name="stats_ovr">CHỈ SỐ NĂNG LỰC</string>
+    <string name="speed">Tốc độ</string>
+    <string name="shoot">Sút</string>
+    <string name="pass">Chuyền</string>
+    <string name="dribble">Rê bóng</string>
+    <string name="defense">Phòng thủ</string>
+    <string name="physique">Thể lực</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="loading">Đang tải dữ liệu...</string>
+    <string name="dashboard">BẢNG ĐIỀU KHIỂN</string>
+
+    <!-- Formatting strings for Player Details -->
+    <string name="player_number_format">#%1$d</string>
+    <string name="player_age_format">%1$d TUỔI</string>
+    <string name="player_id_format">ID: %1$s</string>
+</resources>

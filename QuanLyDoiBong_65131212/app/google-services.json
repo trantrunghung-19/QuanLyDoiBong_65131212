@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157180126044",
+    "project_id": "quanlydoibong-c5daf",
+    "storage_bucket": "quanlydoibong-c5daf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157180126044:android:53699b9c40dbb0c7fcd799",
+        "android_client_info": {
+          "package_name": "ThiCK2.quanlydoibong_65131212"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMPnnTY36seackYBw9O4sNUHJKkg3Za4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
