@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/card_dark"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivTeamLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/bg_logo_shield" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivTeamLogo"
+            android:layout_toStartOf="@id/ivMore"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTeamName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manchester City"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCoach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HLV: Pep Guardiola"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvStadium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sân: Etihad Stadium"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvPlayersCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cầu thủ: 25"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivMore"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_more"
+            app:tint="@color/text_gray" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

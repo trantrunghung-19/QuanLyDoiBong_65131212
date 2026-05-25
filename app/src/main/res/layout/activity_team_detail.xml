@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="@color/text_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="CHI TIẾT ĐỘI BÓNG"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Team Info Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/card_dark"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ivTeamLogo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bg_logo_shield" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/ivTeamLogo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTeamName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FC Barcelona"
+                    android:textColor="@color/text_white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCoach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HLV: Xavi Hernández"
+                    android:textColor="@color/green_neon"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivTeamLogo"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@android:drawable/ic_menu_myplaces" app:tint="@color/text_gray"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sân nhà" android:textColor="@color/text_gray" android:textSize="10sp"/>
+                    <TextView android:id="@+id/tvStadium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Camp Nou" android:textColor="@color/text_white" android:textSize="12sp" android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@android:drawable/ic_menu_sort_by_size" app:tint="@color/text_gray"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cầu thủ" android:textColor="@color/text_gray" android:textSize="10sp"/>
+                    <TextView android:id="@+id/tvPlayerCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="24" android:textColor="@color/text_white" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@android:drawable/ic_menu_mapmode" app:tint="@color/text_gray"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quốc gia" android:textColor="@color/text_gray" android:textSize="10sp"/>
+                    <TextView android:id="@+id/tvCountry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tây Ban Nha" android:textColor="@color/text_white" android:textSize="12sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Player List Title -->
+    <TextView
+        android:id="@+id/tvPlayerListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DANH SÁCH CẦU THỦ"
+        android:textColor="@color/green_neon"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPlayers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottomButtonsContainer"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="8dp"
+            android:clipToPadding="false"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottomButtonsContainer"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:src="@android:drawable/ic_input_add"
+            app:backgroundTint="@color/green_neon"
+            app:elevation="6dp"
+            app:tint="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/bottomButtonsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="@color/background_dark">
+
+            <Button
+                android:id="@+id/btnDeleteTeam"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bg_button_red"
+                android:text="XÓA ĐỘI"
+                android:textColor="@color/text_white"/>
+
+            <Button
+                android:id="@+id/btnEditTeam"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_button_green"
+                android:text="SỬA ĐỘI"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

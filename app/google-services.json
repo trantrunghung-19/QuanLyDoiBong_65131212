@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064811657732",
+    "project_id": "quanlydoibong-trantrunghung",
+    "storage_bucket": "quanlydoibong-trantrunghung.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064811657732:android:0dfe53088190c1aca0d351",
+        "android_client_info": {
+          "package_name": "vn.edu.tinhoc123.quanlydoibong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2A2crRx5LLDLPUjPAEi05OSr4kxGakIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
