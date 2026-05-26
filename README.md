@@ -11,4 +11,5 @@
 <img width="374" height="811" alt="Screenshot 2026-05-26 002709" src="https://github.com/user-attachments/assets/b3799fb4-d518-420c-aa66-b5544288354c" />
 <img width="367" height="800" alt="Screenshot 2026-05-26 002739" src="https://github.com/user-attachments/assets/6f6b4de5-2685-4cb1-9bcd-af1b9a69766a" />
 <img width="371" height="806" alt="Screenshot 2026-05-26 002803" src="https://github.com/user-attachments/assets/da568b50-7763-484a-aeea-7c02088274a7" />
+# video sử dụng app
 https://drive.google.com/file/d/1uRFhP9Oq6UCDWKOn7oyo_Hmh5bZcoAbQ/view?usp=sharing
