@@ -71,7 +71,7 @@ Người dùng tạo tài khoản mới bằng họ tên, email và mật khẩu
 
 Trang chủ hiển thị tổng số đội bóng, tổng số cầu thủ và đội bóng mới nhất.
 
-<img width="362" height="811" alt="Screenshot 2026-05-26 002414" src="https://github.com/user-attachments/assets/135d79f5-5159-4249-a054-fbcd5694dffd" />
+<img width="357" height="805" alt="Screenshot 2026-05-25 235545" src="https://github.com/user-attachments/assets/b3b507f9-c3be-4bec-83e4-c6cccb5d2c79" />
 
 
 ## 6. Danh sách đội bóng
