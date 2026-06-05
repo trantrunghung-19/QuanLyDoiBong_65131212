@@ -9,8 +9,6 @@
 | Nội dung | Thông tin |
 |---|---|
 | Tên dự án | Quản Lý Đội Bóng |
-| Sinh viên thực hiện | Trần Trung Hưng |
-| MSSV | 65131212 |
 | Nền tảng | Android |
 | Ngôn ngữ | Java |
 | Giao diện | XML |
