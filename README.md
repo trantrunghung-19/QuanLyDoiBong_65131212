@@ -134,7 +134,7 @@ Người dùng có thể cập nhật lại thông tin huấn luyện viên.
 
 Video demo cách sử dụng ứng dụng:
 
-
+https://drive.google.com/file/d/1nZKHPwfwALyyQDrLvSEkGTK-V9_dQJ4l/view?usp=sharing
 
 ---
 
