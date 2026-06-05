@@ -56,7 +56,7 @@ Người dùng nhập email và mật khẩu để đăng nhập vào hệ thố
 
 Người dùng nhập mật khẩu mới và xác nhận lại mật khẩu mới.
 
-<img width="384" height="803" alt="Screenshot 2026-05-25 235437" src="https://github.com/user-attachments/assets/597f494c-63e6-4634-a7f4-358fdff6b0db" />
+<img width="362" height="811" alt="Screenshot 2026-05-26 002414" src="https://github.com/user-attachments/assets/135d79f5-5159-4249-a054-fbcd5694dffd" />
 
 ---
 
@@ -64,8 +64,8 @@ Người dùng nhập mật khẩu mới và xác nhận lại mật khẩu mớ
 
 Người dùng tạo tài khoản mới bằng họ tên, email và mật khẩu.
 
-<img width="374" height="811" alt="Login Screen" src="https://github.com/user-attachments/assets/05ebf126-6373-47fc-9ed5-6324ae13f5d3" />
----
+<img width="384" height="803" alt="Screenshot 2026-05-25 235437" src="https://github.com/user-attachments/assets/597f494c-63e6-4634-a7f4-358fdff6b0db" />
+
 
 ## 5. Trang chủ
 
